@@ -1,0 +1,44 @@
+# Python byte-code & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Virtualenv
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Logs (keep .gitkeep and tracked baseline reports if needed)
+*.log

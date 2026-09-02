@@ -1,0 +1,847 @@
+{
+  "timestamp": "2026-09-02T16:59:45.203587+00:00",
+  "config": {
+    "base_url": "http://localhost:8000",
+    "total_tickets": 30,
+    "concurrent_buyers": 40,
+    "total_requests": 200,
+    "duplicate_rate": 0.1,
+    "reservation_timeout": 1.0,
+    "simulate_lifecycle": true
+  },
+  "performance": {
+    "total_elapsed_seconds": 3.363,
+    "throughput_rps": 59.47,
+    "status_codes": {
+      "200": 200
+    },
+    "action_counts": {
+      "CONFIRMED": 25,
+      "TIMED_OUT": 8,
+      "CANCELLED": 2,
+      "NONE": 163,
+      "WAITLIST_PROMOTED_CONFIRMED": 2
+    },
+    "latency_ms": {
+      "min": 41.03,
+      "avg": 218.4,
+      "p50_median": 167.85,
+      "p90": 463.9,
+      "p99": 777.56,
+      "max": 929.98
+    }
+  },
+  "backend_status": {
+    "total_tickets": 30,
+    "tickets_sold": 30,
+    "tickets_remaining": 0,
+    "confirmed_count": 24,
+    "reserved_count": 6,
+    "waitlist_count": 116,
+    "waitlist": [
+      {
+        "position": 1,
+        "user_id": "user_0055",
+        "request_id": "req_b8ff1bb539"
+      },
+      {
+        "position": 2,
+        "user_id": "user_0052",
+        "request_id": "req_12cfdd7142"
+      },
+      {
+        "position": 3,
+        "user_id": "user_0076",
+        "request_id": "req_087cd8cc8d"
+      },
+      {
+        "position": 4,
+        "user_id": "user_0072",
+        "request_id": "req_8be8b732bc"
+      },
+      {
+        "position": 5,
+        "user_id": "user_0079",
+        "request_id": "req_fe641ee8e8"
+      },
+      {
+        "position": 6,
+        "user_id": "user_0031",
+        "request_id": "req_6cf5bd4c85"
+      },
+      {
+        "position": 7,
+        "user_id": "user_0078",
+        "request_id": "req_468057ecc8"
+      },
+      {
+        "position": 8,
+        "user_id": "user_0032",
+        "request_id": "req_e91007a734"
+      },
+      {
+        "position": 9,
+        "user_id": "user_0081",
+        "request_id": "req_20e8c7967e"
+      },
+      {
+        "position": 10,
+        "user_id": "user_0073",
+        "request_id": "req_be0d3d5f79"
+      },
+      {
+        "position": 11,
+        "user_id": "user_0083",
+        "request_id": "req_658b99ea08"
+      },
+      {
+        "position": 12,
+        "user_id": "user_0086",
+        "request_id": "req_eba86bb25a"
+      },
+      {
+        "position": 13,
+        "user_id": "user_0090",
+        "request_id": "req_902589c73a"
+      },
+      {
+        "position": 14,
+        "user_id": "user_0080",
+        "request_id": "req_b35c999367"
+      },
+      {
+        "position": 15,
+        "user_id": "user_0087",
+        "request_id": "req_cb20373d69"
+      },
+      {
+        "position": 16,
+        "user_id": "user_0082",
+        "request_id": "req_ed6eeddcde"
+      },
+      {
+        "position": 17,
+        "user_id": "user_0084",
+        "request_id": "req_7edcac1b4f"
+      },
+      {
+        "position": 18,
+        "user_id": "user_0091",
+        "request_id": "req_c7279dd822"
+      },
+      {
+        "position": 19,
+        "user_id": "user_0096",
+        "request_id": "req_bbeb3fb623"
+      },
+      {
+        "position": 20,
+        "user_id": "user_0085",
+        "request_id": "req_01f638e60c"
+      },
+      {
+        "position": 21,
+        "user_id": "user_0097",
+        "request_id": "req_e330a1f411"
+      },
+      {
+        "position": 22,
+        "user_id": "user_0092",
+        "request_id": "req_3655c49ba4"
+      },
+      {
+        "position": 23,
+        "user_id": "user_0099",
+        "request_id": "req_a0c4001aeb"
+      },
+      {
+        "position": 24,
+        "user_id": "user_0100",
+        "request_id": "req_5387b76e89"
+      },
+      {
+        "position": 25,
+        "user_id": "user_0098",
+        "request_id": "req_5f7a8bb9ac"
+      },
+      {
+        "position": 26,
+        "user_id": "user_0103",
+        "request_id": "req_405216c8be"
+      },
+      {
+        "position": 27,
+        "user_id": "user_0089",
+        "request_id": "req_4fe7b0a699"
+      },
+      {
+        "position": 28,
+        "user_id": "user_0101",
+        "request_id": "req_4606e8cc43"
+      },
+      {
+        "position": 29,
+        "user_id": "user_0074",
+        "request_id": "req_34908d8550"
+      },
+      {
+        "position": 30,
+        "user_id": "user_0106",
+        "request_id": "req_153c474adb"
+      },
+      {
+        "position": 31,
+        "user_id": "user_0107",
+        "request_id": "req_490b909a33"
+      },
+      {
+        "position": 32,
+        "user_id": "user_0105",
+        "request_id": "req_1c2a639f3d"
+      },
+      {
+        "position": 33,
+        "user_id": "user_0112",
+        "request_id": "req_e1dfe55aa3"
+      },
+      {
+        "position": 34,
+        "user_id": "user_0109",
+        "request_id": "req_d8570e528c"
+      },
+      {
+        "position": 35,
+        "user_id": "user_0108",
+        "request_id": "req_63baf59bc0"
+      },
+      {
+        "position": 36,
+        "user_id": "user_0088",
+        "request_id": "req_5b61460c09"
+      },
+      {
+        "position": 37,
+        "user_id": "user_0102",
+        "request_id": "req_7667d6086d"
+      },
+      {
+        "position": 38,
+        "user_id": "user_0110",
+        "request_id": "req_c9e594e782"
+      },
+      {
+        "position": 39,
+        "user_id": "user_0118",
+        "request_id": "req_20bce9ec28"
+      },
+      {
+        "position": 40,
+        "user_id": "user_0114",
+        "request_id": "req_3462f7eb45"
+      },
+      {
+        "position": 41,
+        "user_id": "user_0124",
+        "request_id": "req_76185f0b80"
+      },
+      {
+        "position": 42,
+        "user_id": "user_0093",
+        "request_id": "req_cc0984ca54"
+      },
+      {
+        "position": 43,
+        "user_id": "user_0116",
+        "request_id": "req_b1c20e0b26"
+      },
+      {
+        "position": 44,
+        "user_id": "user_0122",
+        "request_id": "req_f45e2ee6b5"
+      },
+      {
+        "position": 45,
+        "user_id": "user_0123",
+        "request_id": "req_e373ea3db1"
+      },
+      {
+        "position": 46,
+        "user_id": "user_0115",
+        "request_id": "req_903f66f4e0"
+      },
+      {
+        "position": 47,
+        "user_id": "user_0132",
+        "request_id": "req_31ce57cf08"
+      },
+      {
+        "position": 48,
+        "user_id": "user_0119",
+        "request_id": "req_391aa36592"
+      },
+      {
+        "position": 49,
+        "user_id": "user_0126",
+        "request_id": "req_cd728e9335"
+      },
+      {
+        "position": 50,
+        "user_id": "user_0135",
+        "request_id": "req_295925e8ed"
+      },
+      {
+        "position": 51,
+        "user_id": "user_0117",
+        "request_id": "req_caae729c98"
+      },
+      {
+        "position": 52,
+        "user_id": "user_0111",
+        "request_id": "req_5dd655a6e0"
+      },
+      {
+        "position": 53,
+        "user_id": "user_0137",
+        "request_id": "req_7df57e92c7"
+      },
+      {
+        "position": 54,
+        "user_id": "user_0134",
+        "request_id": "req_022d863ffc"
+      },
+      {
+        "position": 55,
+        "user_id": "user_0128",
+        "request_id": "req_efaeb5fc32"
+      },
+      {
+        "position": 56,
+        "user_id": "user_0127",
+        "request_id": "req_d445469c30"
+      },
+      {
+        "position": 57,
+        "user_id": "user_0130",
+        "request_id": "req_06e8251c2a"
+      },
+      {
+        "position": 58,
+        "user_id": "user_0129",
+        "request_id": "req_b20bc67170"
+      },
+      {
+        "position": 59,
+        "user_id": "user_0143",
+        "request_id": "req_720d1e8b9b"
+      },
+      {
+        "position": 60,
+        "user_id": "user_0120",
+        "request_id": "req_0da66aa20c"
+      },
+      {
+        "position": 61,
+        "user_id": "user_0146",
+        "request_id": "req_e109d7cf31"
+      },
+      {
+        "position": 62,
+        "user_id": "user_0149",
+        "request_id": "req_94012f0979"
+      },
+      {
+        "position": 63,
+        "user_id": "user_0139",
+        "request_id": "req_a49341463c"
+      },
+      {
+        "position": 64,
+        "user_id": "user_0136",
+        "request_id": "req_0cd7a15970"
+      },
+      {
+        "position": 65,
+        "user_id": "user_0140",
+        "request_id": "req_3c41476fd5"
+      },
+      {
+        "position": 66,
+        "user_id": "user_0152",
+        "request_id": "req_f0ae182df2"
+      },
+      {
+        "position": 67,
+        "user_id": "user_0151",
+        "request_id": "req_497c6902e5"
+      },
+      {
+        "position": 68,
+        "user_id": "user_0147",
+        "request_id": "req_011a57888b"
+      },
+      {
+        "position": 69,
+        "user_id": "user_0148",
+        "request_id": "req_9b995fd046"
+      },
+      {
+        "position": 70,
+        "user_id": "user_0150",
+        "request_id": "req_4fc1ba7d44"
+      },
+      {
+        "position": 71,
+        "user_id": "user_0153",
+        "request_id": "req_7be24fc13e"
+      },
+      {
+        "position": 72,
+        "user_id": "user_0154",
+        "request_id": "req_a317e4f801"
+      },
+      {
+        "position": 73,
+        "user_id": "user_0145",
+        "request_id": "req_30408e4d2e"
+      },
+      {
+        "position": 74,
+        "user_id": "user_0133",
+        "request_id": "req_4b1af6e731"
+      },
+      {
+        "position": 75,
+        "user_id": "user_0155",
+        "request_id": "req_29bbc019ff"
+      },
+      {
+        "position": 76,
+        "user_id": "user_0156",
+        "request_id": "req_20c8c294f4"
+      },
+      {
+        "position": 77,
+        "user_id": "user_0161",
+        "request_id": "req_f736b24e2f"
+      },
+      {
+        "position": 78,
+        "user_id": "user_0157",
+        "request_id": "req_cde1cb8238"
+      },
+      {
+        "position": 79,
+        "user_id": "user_0164",
+        "request_id": "req_c8fd0104e9"
+      },
+      {
+        "position": 80,
+        "user_id": "user_0159",
+        "request_id": "req_f43ffb0cbe"
+      },
+      {
+        "position": 81,
+        "user_id": "user_0160",
+        "request_id": "req_23b971d32f"
+      },
+      {
+        "position": 82,
+        "user_id": "user_0171",
+        "request_id": "req_78db895e94"
+      },
+      {
+        "position": 83,
+        "user_id": "user_0172",
+        "request_id": "req_dd04bb61e6"
+      },
+      {
+        "position": 84,
+        "user_id": "user_0163",
+        "request_id": "req_86ddf87740"
+      },
+      {
+        "position": 85,
+        "user_id": "user_0174",
+        "request_id": "req_600e608e27"
+      },
+      {
+        "position": 86,
+        "user_id": "user_0165",
+        "request_id": "req_235082dfde"
+      },
+      {
+        "position": 87,
+        "user_id": "user_0167",
+        "request_id": "req_5691aecc02"
+      },
+      {
+        "position": 88,
+        "user_id": "user_0169",
+        "request_id": "req_ddb189c54c"
+      },
+      {
+        "position": 89,
+        "user_id": "user_0141",
+        "request_id": "req_7adf348571"
+      },
+      {
+        "position": 90,
+        "user_id": "user_0166",
+        "request_id": "req_f67655f993"
+      },
+      {
+        "position": 91,
+        "user_id": "user_0170",
+        "request_id": "req_f4487512b4"
+      },
+      {
+        "position": 92,
+        "user_id": "user_0162",
+        "request_id": "req_c94b50c268"
+      },
+      {
+        "position": 93,
+        "user_id": "user_0179",
+        "request_id": "req_ce9d51f2ef"
+      },
+      {
+        "position": 94,
+        "user_id": "user_0168",
+        "request_id": "req_bfdc548d9c"
+      },
+      {
+        "position": 95,
+        "user_id": "user_0182",
+        "request_id": "req_742c4c9936"
+      },
+      {
+        "position": 96,
+        "user_id": "user_0181",
+        "request_id": "req_7ccf8f441a"
+      },
+      {
+        "position": 97,
+        "user_id": "user_0183",
+        "request_id": "req_728e7d5cf6"
+      },
+      {
+        "position": 98,
+        "user_id": "user_0176",
+        "request_id": "req_068babad28"
+      },
+      {
+        "position": 99,
+        "user_id": "user_0186",
+        "request_id": "req_b845bbb6ca"
+      },
+      {
+        "position": 100,
+        "user_id": "user_0187",
+        "request_id": "req_cfe62aff99"
+      },
+      {
+        "position": 101,
+        "user_id": "user_0178",
+        "request_id": "req_9c7a29fb7a"
+      },
+      {
+        "position": 102,
+        "user_id": "user_0180",
+        "request_id": "req_ae042d690d"
+      },
+      {
+        "position": 103,
+        "user_id": "user_0173",
+        "request_id": "req_1779d5fde4"
+      },
+      {
+        "position": 104,
+        "user_id": "user_0184",
+        "request_id": "req_75fb5f393f"
+      },
+      {
+        "position": 105,
+        "user_id": "user_0192",
+        "request_id": "req_ba81062a04"
+      },
+      {
+        "position": 106,
+        "user_id": "user_0197",
+        "request_id": "req_86ad4970bc"
+      },
+      {
+        "position": 107,
+        "user_id": "user_0194",
+        "request_id": "req_7d8bad88a8"
+      },
+      {
+        "position": 108,
+        "user_id": "user_0196",
+        "request_id": "req_f69d308df4"
+      },
+      {
+        "position": 109,
+        "user_id": "user_0190",
+        "request_id": "req_e91d5edffb"
+      },
+      {
+        "position": 110,
+        "user_id": "user_0188",
+        "request_id": "req_12fa3fa0d9"
+      },
+      {
+        "position": 111,
+        "user_id": "user_0193",
+        "request_id": "req_5ae56af759"
+      },
+      {
+        "position": 112,
+        "user_id": "user_0199",
+        "request_id": "req_99dd687c60"
+      },
+      {
+        "position": 113,
+        "user_id": "user_0185",
+        "request_id": "req_8b579065bf"
+      },
+      {
+        "position": 114,
+        "user_id": "user_0198",
+        "request_id": "req_9249518e1a"
+      },
+      {
+        "position": 115,
+        "user_id": "user_0200",
+        "request_id": "req_c5f60db7f3"
+      },
+      {
+        "position": 116,
+        "user_id": "user_0177",
+        "request_id": "req_17e9ee7def"
+      }
+    ],
+    "expired_reclaims": 25,
+    "cancellations": 2,
+    "waitlist_promotions": 26,
+    "assignments": [
+      {
+        "ticket_number": 1,
+        "user_id": "user_0001",
+        "request_id": "req_0a1b85d199",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 2,
+        "user_id": "user_0053",
+        "request_id": "req_03eb85d647",
+        "status": "RESERVED"
+      },
+      {
+        "ticket_number": 3,
+        "user_id": "user_0066",
+        "request_id": "req_e7f68010ac",
+        "status": "RESERVED"
+      },
+      {
+        "ticket_number": 4,
+        "user_id": "user_0003",
+        "request_id": "req_4873e92a27",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 5,
+        "user_id": "user_0004",
+        "request_id": "req_54152a8331",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 6,
+        "user_id": "user_0019",
+        "request_id": "req_ebe4edd46e",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 7,
+        "user_id": "user_0058",
+        "request_id": "req_a9e8f46af5",
+        "status": "RESERVED"
+      },
+      {
+        "ticket_number": 8,
+        "user_id": "user_0044",
+        "request_id": "req_0ed940d685",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 10,
+        "user_id": "user_0008",
+        "request_id": "req_f0f10bccd7",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 11,
+        "user_id": "user_0009",
+        "request_id": "req_79ca6ae20e",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 12,
+        "user_id": "user_0010",
+        "request_id": "req_b08a746a4e",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 13,
+        "user_id": "user_0018",
+        "request_id": "req_0aea22f44d",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 14,
+        "user_id": "user_0011",
+        "request_id": "req_45b46348d4",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 15,
+        "user_id": "user_0025",
+        "request_id": "req_696bfa8619",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 16,
+        "user_id": "user_0013",
+        "request_id": "req_b643683e52",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 17,
+        "user_id": "user_0027",
+        "request_id": "req_9263e92306",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 18,
+        "user_id": "user_0014",
+        "request_id": "req_1fb206b176",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 19,
+        "user_id": "user_0069",
+        "request_id": "req_3e7bb8f00a",
+        "status": "RESERVED"
+      },
+      {
+        "ticket_number": 20,
+        "user_id": "user_0016",
+        "request_id": "req_4abd61468c",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 21,
+        "user_id": "user_0017",
+        "request_id": "req_76deb957e0",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 22,
+        "user_id": "user_0068",
+        "request_id": "req_5f83840cba",
+        "status": "RESERVED"
+      },
+      {
+        "ticket_number": 23,
+        "user_id": "user_0020",
+        "request_id": "req_d1c3e8c9c2",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 24,
+        "user_id": "user_0050",
+        "request_id": "req_195646bab4",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 25,
+        "user_id": "user_0036",
+        "request_id": "req_8f96175153",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 26,
+        "user_id": "user_0030",
+        "request_id": "req_9ec5cc2303",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 27,
+        "user_id": "user_0071",
+        "request_id": "req_4eab2c3ffa",
+        "status": "RESERVED"
+      },
+      {
+        "ticket_number": 28,
+        "user_id": "user_0029",
+        "request_id": "req_0d74770f17",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 29,
+        "user_id": "user_0051",
+        "request_id": "req_41d165e610",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 30,
+        "user_id": "user_0028",
+        "request_id": "req_1158ba52c9",
+        "status": "CONFIRMED"
+      },
+      {
+        "ticket_number": 31,
+        "user_id": "user_0043",
+        "request_id": "req_157380085f",
+        "status": "CONFIRMED"
+      }
+    ]
+  },
+  "invariant_checks": [
+    {
+      "number": 1,
+      "name": "Never oversell",
+      "description": "Total active tickets <= initial pool limit",
+      "passed": true,
+      "details": "Active tickets (30) <= pool limit (30)"
+    },
+    {
+      "number": 2,
+      "name": "No duplicate ticket numbers",
+      "description": "Every active ticket number must be strictly unique",
+      "passed": true,
+      "details": "All 30 active ticket numbers are strictly unique"
+    },
+    {
+      "number": 3,
+      "name": "Idempotency",
+      "description": "Replayed request_ids must not issue different ticket numbers",
+      "passed": true,
+      "details": "Duplicate request_ids received matching ticket assignments"
+    },
+    {
+      "number": 4,
+      "name": "State consistency",
+      "description": "`tickets_sold` in /status matches `len(assignments)`",
+      "passed": true,
+      "details": "`tickets_sold` (30) matches `len(assignments)` (30)"
+    },
+    {
+      "number": 5,
+      "name": "Waitlist & Timeout Integrity",
+      "description": "Reclaimed reservations and waitlist promotions maintain state integrity",
+      "passed": true,
+      "details": "Processed 26 waitlist promotions, 25 expirations, 2 cancellations cleanly"
+    }
+  ],
+  "all_invariants_passed": true
+}

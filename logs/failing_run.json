@@ -1,0 +1,550 @@
+{
+  "timestamp": "2026-09-02T16:47:42.331629+00:00",
+  "config": {
+    "base_url": "http://127.0.0.1:8769",
+    "total_tickets": 50,
+    "concurrent_buyers": 50,
+    "total_requests": 300,
+    "duplicate_rate": 0.1
+  },
+  "performance": {
+    "total_elapsed_seconds": 1.7925,
+    "throughput_rps": 167.36,
+    "status_codes": {
+      "200": 97,
+      "409": 203
+    },
+    "latency_ms": {
+      "min": 35.58,
+      "avg": 273.66,
+      "p50_median": 207.45,
+      "p90": 634.06,
+      "p99": 961.86,
+      "max": 1498.31
+    }
+  },
+  "backend_status": {
+    "total_tickets": 50,
+    "tickets_sold": 50,
+    "tickets_remaining": 0,
+    "total_assignments": 97,
+    "assignments": [
+      {
+        "ticket_number": 1,
+        "user_id": "user_0001",
+        "request_id": "req_d76c3b8dc4"
+      },
+      {
+        "ticket_number": 2,
+        "user_id": "user_0002",
+        "request_id": "req_ace207eb23"
+      },
+      {
+        "ticket_number": 2,
+        "user_id": "user_0001",
+        "request_id": "req_d76c3b8dc4"
+      },
+      {
+        "ticket_number": 2,
+        "user_id": "user_0004",
+        "request_id": "req_a0a0a50d85"
+      },
+      {
+        "ticket_number": 2,
+        "user_id": "user_0005",
+        "request_id": "req_091ab74475"
+      },
+      {
+        "ticket_number": 2,
+        "user_id": "user_0006",
+        "request_id": "req_9b75bb9f05"
+      },
+      {
+        "ticket_number": 3,
+        "user_id": "user_0007",
+        "request_id": "req_7ef606b0ac"
+      },
+      {
+        "ticket_number": 3,
+        "user_id": "user_0008",
+        "request_id": "req_6733062626"
+      },
+      {
+        "ticket_number": 3,
+        "user_id": "user_0017",
+        "request_id": "req_33d64308b0"
+      },
+      {
+        "ticket_number": 3,
+        "user_id": "user_0009",
+        "request_id": "req_0a70b97dba"
+      },
+      {
+        "ticket_number": 4,
+        "user_id": "user_0010",
+        "request_id": "req_564cb64964"
+      },
+      {
+        "ticket_number": 4,
+        "user_id": "user_0011",
+        "request_id": "req_4c9c3855cd"
+      },
+      {
+        "ticket_number": 5,
+        "user_id": "user_0011",
+        "request_id": "req_4c9c3855cd"
+      },
+      {
+        "ticket_number": 6,
+        "user_id": "user_0013",
+        "request_id": "req_a35ed45ece"
+      },
+      {
+        "ticket_number": 7,
+        "user_id": "user_0020",
+        "request_id": "req_5428487aa5"
+      },
+      {
+        "ticket_number": 7,
+        "user_id": "user_0014",
+        "request_id": "req_3d1227ce42"
+      },
+      {
+        "ticket_number": 7,
+        "user_id": "user_0015",
+        "request_id": "req_88dfc64510"
+      },
+      {
+        "ticket_number": 8,
+        "user_id": "user_0016",
+        "request_id": "req_f5fe04c475"
+      },
+      {
+        "ticket_number": 8,
+        "user_id": "user_0054",
+        "request_id": "req_12d35712db"
+      },
+      {
+        "ticket_number": 9,
+        "user_id": "user_0025",
+        "request_id": "req_165cbfcd83"
+      },
+      {
+        "ticket_number": 9,
+        "user_id": "user_0051",
+        "request_id": "req_d0185825c4"
+      },
+      {
+        "ticket_number": 9,
+        "user_id": "user_0058",
+        "request_id": "req_f7dc8d6c1c"
+      },
+      {
+        "ticket_number": 10,
+        "user_id": "user_0018",
+        "request_id": "req_e29f29f72c"
+      },
+      {
+        "ticket_number": 11,
+        "user_id": "user_0019",
+        "request_id": "req_f81f5ea58c"
+      },
+      {
+        "ticket_number": 11,
+        "user_id": "user_0062",
+        "request_id": "req_6b12c6e569"
+      },
+      {
+        "ticket_number": 12,
+        "user_id": "user_0064",
+        "request_id": "req_b0c8779558"
+      },
+      {
+        "ticket_number": 12,
+        "user_id": "user_0028",
+        "request_id": "req_cf39639539"
+      },
+      {
+        "ticket_number": 13,
+        "user_id": "user_0021",
+        "request_id": "req_7a0ae86336"
+      },
+      {
+        "ticket_number": 14,
+        "user_id": "user_0069",
+        "request_id": "req_5081c51064"
+      },
+      {
+        "ticket_number": 14,
+        "user_id": "user_0032",
+        "request_id": "req_c1acaebc18"
+      },
+      {
+        "ticket_number": 15,
+        "user_id": "user_0034",
+        "request_id": "req_646d8a6706"
+      },
+      {
+        "ticket_number": 15,
+        "user_id": "user_0061",
+        "request_id": "req_7db7fefcbe"
+      },
+      {
+        "ticket_number": 16,
+        "user_id": "user_0029",
+        "request_id": "req_f8d6c0ee1c"
+      },
+      {
+        "ticket_number": 16,
+        "user_id": "user_0075",
+        "request_id": "req_74197c986a"
+      },
+      {
+        "ticket_number": 16,
+        "user_id": "user_0035",
+        "request_id": "req_8a679578e8"
+      },
+      {
+        "ticket_number": 17,
+        "user_id": "user_0037",
+        "request_id": "req_521b6e6f1f"
+      },
+      {
+        "ticket_number": 18,
+        "user_id": "user_0021",
+        "request_id": "req_7a0ae86336"
+      },
+      {
+        "ticket_number": 18,
+        "user_id": "user_0026",
+        "request_id": "req_acb4359576"
+      },
+      {
+        "ticket_number": 19,
+        "user_id": "user_0080",
+        "request_id": "req_3555cd30e1"
+      },
+      {
+        "ticket_number": 20,
+        "user_id": "user_0044",
+        "request_id": "req_8ca6d4de35"
+      },
+      {
+        "ticket_number": 20,
+        "user_id": "user_0074",
+        "request_id": "req_0428016516"
+      },
+      {
+        "ticket_number": 20,
+        "user_id": "user_0036",
+        "request_id": "req_e18b933322"
+      },
+      {
+        "ticket_number": 21,
+        "user_id": "user_0027",
+        "request_id": "req_1693015345"
+      },
+      {
+        "ticket_number": 21,
+        "user_id": "user_0085",
+        "request_id": "req_e193fa8693"
+      },
+      {
+        "ticket_number": 22,
+        "user_id": "user_0047",
+        "request_id": "req_2a0b40c770"
+      },
+      {
+        "ticket_number": 22,
+        "user_id": "user_0033",
+        "request_id": "req_2a4910864a"
+      },
+      {
+        "ticket_number": 23,
+        "user_id": "user_0076",
+        "request_id": "req_1ae15ca4c8"
+      },
+      {
+        "ticket_number": 24,
+        "user_id": "user_0089",
+        "request_id": "req_dc605b8420"
+      },
+      {
+        "ticket_number": 24,
+        "user_id": "user_0053",
+        "request_id": "req_a61acb02e0"
+      },
+      {
+        "ticket_number": 25,
+        "user_id": "user_0084",
+        "request_id": "req_6f525242aa"
+      },
+      {
+        "ticket_number": 26,
+        "user_id": "user_0059",
+        "request_id": "req_15bfd6bb05"
+      },
+      {
+        "ticket_number": 26,
+        "user_id": "user_0092",
+        "request_id": "req_1e97c65d47"
+      },
+      {
+        "ticket_number": 26,
+        "user_id": "user_0063",
+        "request_id": "req_a8c75c7750"
+      },
+      {
+        "ticket_number": 27,
+        "user_id": "user_0056",
+        "request_id": "req_84dbf4c7da"
+      },
+      {
+        "ticket_number": 27,
+        "user_id": "user_0019",
+        "request_id": "req_f81f5ea58c"
+      },
+      {
+        "ticket_number": 28,
+        "user_id": "user_0066",
+        "request_id": "req_d2e295d625"
+      },
+      {
+        "ticket_number": 28,
+        "user_id": "user_0068",
+        "request_id": "req_0899350921"
+      },
+      {
+        "ticket_number": 29,
+        "user_id": "user_0097",
+        "request_id": "req_0ca5a9f54b"
+      },
+      {
+        "ticket_number": 29,
+        "user_id": "user_0060",
+        "request_id": "req_1d73448612"
+      },
+      {
+        "ticket_number": 29,
+        "user_id": "user_0079",
+        "request_id": "req_20fa314e60"
+      },
+      {
+        "ticket_number": 30,
+        "user_id": "user_0096",
+        "request_id": "req_5db8d3616e"
+      },
+      {
+        "ticket_number": 30,
+        "user_id": "user_0087",
+        "request_id": "req_6c3a77b184"
+      },
+      {
+        "ticket_number": 31,
+        "user_id": "user_0022",
+        "request_id": "req_6363c5a940"
+      },
+      {
+        "ticket_number": 32,
+        "user_id": "user_0098",
+        "request_id": "req_fc94e5836e"
+      },
+      {
+        "ticket_number": 32,
+        "user_id": "user_0031",
+        "request_id": "req_55f420299b"
+      },
+      {
+        "ticket_number": 33,
+        "user_id": "user_0104",
+        "request_id": "req_0c99d671c7"
+      },
+      {
+        "ticket_number": 33,
+        "user_id": "user_0088",
+        "request_id": "req_a8bb2941bc"
+      },
+      {
+        "ticket_number": 34,
+        "user_id": "user_0039",
+        "request_id": "req_43417971d0"
+      },
+      {
+        "ticket_number": 34,
+        "user_id": "user_0108",
+        "request_id": "req_fad8ec8f76"
+      },
+      {
+        "ticket_number": 34,
+        "user_id": "user_0082",
+        "request_id": "req_f9c21a6dcd"
+      },
+      {
+        "ticket_number": 35,
+        "user_id": "user_0101",
+        "request_id": "req_57a366f5b1"
+      },
+      {
+        "ticket_number": 36,
+        "user_id": "user_0021",
+        "request_id": "req_7a0ae86336"
+      },
+      {
+        "ticket_number": 36,
+        "user_id": "user_0086",
+        "request_id": "req_8a28171934"
+      },
+      {
+        "ticket_number": 37,
+        "user_id": "user_0114",
+        "request_id": "req_6d5161a9c4"
+      },
+      {
+        "ticket_number": 37,
+        "user_id": "user_0046",
+        "request_id": "req_26cae4fc0f"
+      },
+      {
+        "ticket_number": 37,
+        "user_id": "user_0091",
+        "request_id": "req_ef4736cbb2"
+      },
+      {
+        "ticket_number": 38,
+        "user_id": "user_0107",
+        "request_id": "req_a84d033699"
+      },
+      {
+        "ticket_number": 39,
+        "user_id": "user_0117",
+        "request_id": "req_eb4c33a731"
+      },
+      {
+        "ticket_number": 39,
+        "user_id": "user_0002",
+        "request_id": "req_ace207eb23"
+      },
+      {
+        "ticket_number": 40,
+        "user_id": "user_0043",
+        "request_id": "req_0f32c4c738"
+      },
+      {
+        "ticket_number": 41,
+        "user_id": "user_0045",
+        "request_id": "req_49a7d148c5"
+      },
+      {
+        "ticket_number": 42,
+        "user_id": "user_0038",
+        "request_id": "req_17d5c9733b"
+      },
+      {
+        "ticket_number": 42,
+        "user_id": "user_0121",
+        "request_id": "req_caab67115c"
+      },
+      {
+        "ticket_number": 43,
+        "user_id": "user_0110",
+        "request_id": "req_9e6739cd33"
+      },
+      {
+        "ticket_number": 43,
+        "user_id": "user_0039",
+        "request_id": "req_43417971d0"
+      },
+      {
+        "ticket_number": 43,
+        "user_id": "user_0041",
+        "request_id": "req_a0976271cc"
+      },
+      {
+        "ticket_number": 44,
+        "user_id": "user_0072",
+        "request_id": "req_d405748305"
+      },
+      {
+        "ticket_number": 45,
+        "user_id": "user_0067",
+        "request_id": "req_44560d9902"
+      },
+      {
+        "ticket_number": 46,
+        "user_id": "user_0040",
+        "request_id": "req_1ddd2463c1"
+      },
+      {
+        "ticket_number": 46,
+        "user_id": "user_0120",
+        "request_id": "req_48aa35f2e5"
+      },
+      {
+        "ticket_number": 46,
+        "user_id": "user_0065",
+        "request_id": "req_d5669bd267"
+      },
+      {
+        "ticket_number": 47,
+        "user_id": "user_0130",
+        "request_id": "req_14a3680177"
+      },
+      {
+        "ticket_number": 48,
+        "user_id": "user_0119",
+        "request_id": "req_5799f81c73"
+      },
+      {
+        "ticket_number": 48,
+        "user_id": "user_0099",
+        "request_id": "req_a151319cae"
+      },
+      {
+        "ticket_number": 48,
+        "user_id": "user_0123",
+        "request_id": "req_550bac44cf"
+      },
+      {
+        "ticket_number": 49,
+        "user_id": "user_0106",
+        "request_id": "req_f20af02bdc"
+      },
+      {
+        "ticket_number": 50,
+        "user_id": "user_0133",
+        "request_id": "req_be2ed0af65"
+      }
+    ]
+  },
+  "invariant_checks": [
+    {
+      "number": 1,
+      "name": "Never oversell",
+      "description": "Total tickets issued <= initial ticket pool",
+      "passed": false,
+      "details": "Oversold! Issued 97 tickets for pool of 50 (47 excess tickets sold)"
+    },
+    {
+      "number": 2,
+      "name": "No duplicate ticket numbers",
+      "description": "Every ticket number issued must be strictly unique",
+      "passed": false,
+      "details": "Found 31 duplicate ticket numbers! (e.g. #2 (issued 5x), #3 (issued 4x), #4 (issued 2x))"
+    },
+    {
+      "number": 3,
+      "name": "Idempotency",
+      "description": "Replayed request_ids must not issue new ticket numbers",
+      "passed": false,
+      "details": "Idempotency violated! 6 replayed request_id(s) received multiple tickets"
+    },
+    {
+      "number": 4,
+      "name": "State consistency",
+      "description": "`tickets_sold` in /status must exactly match `len(assignments)`",
+      "passed": false,
+      "details": "State mismatch! `tickets_sold` is 50 but `len(assignments)` is 97"
+    }
+  ],
+  "all_invariants_passed": false
+}
